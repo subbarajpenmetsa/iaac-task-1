@@ -99,7 +99,7 @@ This repo (iaac-task-1) contains terraform configuration files for the above ass
         # aws_route53_record.app will be created
         # aws_route53_record.db will be created
     - RDS
-        # aws_db_instance.rds will be created
+        # aws_demo_db_instance.rds will be created
         # aws_db_subnet_group.rds_subnet_group will be created
 
 The architecure diagram is given below.
