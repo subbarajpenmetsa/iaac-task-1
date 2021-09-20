@@ -18,7 +18,7 @@ data "aws_secretsmanager_secret_version" "password" {
 }
 
 #Creating mysql rds instances
-resource "aws_db_instance" "rds" {
+resource "aws_demo_db_instance" "rds" {
   identifier             = "rds"
   allocated_storage      = 10
   engine                 = "mysql"
